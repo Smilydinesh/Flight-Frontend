@@ -44,7 +44,7 @@ export default function Login() {
   };
 
   return (
-    <div className="grid place-items-center h-screen bg-[url('../assets/images/Flight.jpg')] bg-cover bg-center">
+    <div className="grid place-items-center h-screen bg-[url('/src/assets/images/Flight.jpg')] bg-cover bg-center">
       {/* Main container with background image and centered form */}
       <div className="flex justify-center w-full sm:w-4/5 md:w-1/2 lg:w-1/3 h-auto border-2 border-gray-600 rounded-xl bg-gray-400">
         <form onSubmit={handleSubmit}>
