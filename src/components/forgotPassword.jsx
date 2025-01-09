@@ -29,7 +29,7 @@ const ForgotPassword = () => {
   };
 
   return (
-    <div className="grid place-items-center h-screen bg-[url('../assets/images/Flight.jpg')] bg-cover bg-center"> {/* Centering the form on the screen */}
+    <div className="grid place-items-center h-screen bg-[url('/src/assets/images/Flight.jpg')] bg-cover bg-center"> {/* Centering the form on the screen */}
       <div className='flex justify-center w-full sm:w-4/5 md:w-1/2 lg:w-1/3 h-auto border-2 border-gray-600 rounded-xl bg-gray-400'>
         <div>
           <h2 className='text-center font-bold p-4'>Forgot Password</h2> {/* Form title */}
